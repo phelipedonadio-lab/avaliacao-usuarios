@@ -12,9 +12,9 @@ for i in range(50):
     #Exibir opções de avaliação
     print(
         "\nAvalie o serviço prestado:\n" \
-    "1 - Excelente\n" \
-    "2 - Bom\n" \
-    "3 - Ruim")
+        "1 - Excelente\n" \
+        "2 - Bom\n" \
+        "3 - Ruim")
     opiniao = int(input("Digite o número da opção de avaliação: "))
 
     #Estrutura decisão (match/case): vai verificar a avaliação escolhida
