@@ -24,10 +24,10 @@ for i in range(50):
             print (f"{nome.title()}, sua avaliação foi registrada como Excelente. Muito obrigado!")
         case 2:
             total_bom += 1
-            print (f"{nome.title()}, sua avaliação foi registrada como Bom. Obrigado!")
+            print (f"{nome.title()}, sua avaliação foi registrada como Bom. Muito obrigado!")
         case 3:
             total_ruim += 1
-            print (f"{nome.title()}, sua avaliação foi registrada como Ruim. Obrigado!")
+            print (f"{nome.title()}, sua avaliação foi registrada como Ruim. Muito obrigado!")
         case _:
             print("Opção inválida. Avaliação não registrada.")
 
