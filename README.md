@@ -53,8 +53,8 @@ python app.py
 1. Execute o arquivo `app.py`.
 2. Para cada um dos 50 entrevistados, informe: nome, idade e a opção correspondente à opinião sobre o atendimento (1, 2 ou 3).
 
-     > [!WARNING]
-   > Informe a opinião apenas com o número da opção (ex.: digite `1`, não `EXCELENTE`).
+  > [!WARNING]
+  > Informe a opinião apenas com o número da opção (ex.: digite `1`, não `EXCELENTE`).
 
 3. Exemplo: `maria`, `29`, `1` → o programa exibe "Maria, sua avaliação foi registrada como Excelente. Muito obrigado!" (o nome é formatado automaticamente com `.title()`).
 4. Ao final das 50 entrevistas, o programa exibe o total de notas EXCELENTES, BONS e RUINS.
