@@ -40,7 +40,7 @@ Praticar conceitos fundamentais de programação, como:
 ## ▶️ Como Executar
  
 ```bash
-python pesquisa_atendimento.py
+python app.py
 ```
  
 > [!NOTE]
@@ -50,11 +50,11 @@ python pesquisa_atendimento.py
 
 ## Instruções de Uso
 
-1. Execute o arquivo `pesquisa_atendimento.py`.
+1. Execute o arquivo `app.py`.
 2. Para cada um dos 50 entrevistados, informe: nome, idade e a opção correspondente à opinião sobre o atendimento (1, 2 ou 3).
 
      > [!WARNING]
-     > ⚠️ **Observação:** informe a opinião apenas com o número da opção (ex.: digite `1`, não `EXCELENTE`).
+   > Informe a opinião apenas com o número da opção (ex.: digite `1`, não `EXCELENTE`).
 
 3. Exemplo: `maria`, `29`, `1` → o programa exibe "Maria, sua avaliação foi registrada como Excelente. Muito obrigado!" (o nome é formatado automaticamente com `.title()`).
 4. Ao final das 50 entrevistas, o programa exibe o total de notas EXCELENTES, BONS e RUINS.
@@ -78,23 +78,20 @@ Complementando o fluxo do programa, uma tabela de regras facilita consultas ráp
  
 <details>
 <summary>Clique para ver um exemplo de entrada e saída</summary>
-```
+<pre>
 Digite seu nome: maria
 Digite sua idade: 29
- 
 Avalie o serviço prestado:
 1 - Excelente
 2 - Bom
 3 - Ruim
 Digite o número da opção de avaliação: 1
 Maria, sua avaliação foi registrada como Excelente. Muito obrigado!
- 
 ...
- 
 Quantidade de notas EXCELENTES: 1
 Quantidade de notas BONS: 0
 Quantidade de notas RUINS: 0
-```
+</pre>
  
 </details>
  
